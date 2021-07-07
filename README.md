@@ -1,6 +1,7 @@
 # simple-distance-measure-by-camera
 基于地面假设的单目测距，核心代码文件
 由于yolov5的代码在不断更新，我在这里放出核心部分的代码，原理十分简单，我告诉大家怎么用
+视频：https://www.bilibili.com/video/BV1oh411a71G
 # 计算距离.py
 这个文件中是计算距离的函数，设置好相机内参，高度，还有角度即可，把中文名改了，改个英文的，方便你调用这个文件
 # depth_detect_in_cam.py
