@@ -26,7 +26,7 @@ def draw_measure_line(xyxy, img, size, label, intrinsics_matrix, color=None):
 
     pi = math.pi
 
-    filter_list = [9, 11, 10, 74] #
+    filter_list = [9, 11, 10, 74] # 过滤一些我不想要的类别
     if label not in filter_list:
 
         y = int(xyxy[3])
