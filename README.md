@@ -22,6 +22,11 @@
 
 # 一个坑
 openCV调用摄像头会自动改变他的分辨率，如果跟你标定时的分辨率不一样，会出现错误哦
+
 使用这个来设置opencv的分辨率
+
+
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
+
+
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 320)
