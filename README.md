@@ -33,4 +33,5 @@ cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 320)
 
 # 参考资料
 相关文章《Vision-based ACC with a Single Camera: Bounds on Range and Range Rate Accuracy》
+
 参考资料：单镜头视觉系统检测车辆的测距方法 - 知乎 https://zhuanlan.zhihu.com/p/57004561
